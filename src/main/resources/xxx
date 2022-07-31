@@ -1,0 +1,33 @@
+INSERT INTO customers VALUES (1,'Sarmiento 310','Técnicas Modernas de Medición SRL','Gustavo Orence','30906429325','info@tecnicasmm.com.ar','Lomas de Zamora','42822805')
+    INSERT INTO customers VALUES (null,'Gral Paz 265','GALILEO TECHNOLOGIES SA','Ricardo Desimone','23126429325','info@galileoar.com','SAENZ PENA','21332805')
+INSERT INTO customers VALUES (null,'Benito Linch, Esq. Crisologo Larralde (Bº Los Troncos del Talar)','DELTA COMPRESION SRL','Gerardo Suarez','1159172777','info@asprognc.com','GRAL.PACHECO','324452805')
+
+INSERT INTO users VALUES (1,'gsalvia@grupodaca.com.ar','Salvia','Gonzalo','$2a$10$HgKY66okUkD.25VSZtqGIeWqq5ChXLDrBGxypF6jUrBlg60dOvXMe','manager','gsalvia')
+INSERT INTO users VALUES (2,'mfleming@grupodaca.com.ar','Mariano','Fleming','$2a$10$HNl1VPjOFLH/le5geD/5.OtOya2beXafGkV/jF8YSlILQh7NdfR9S','manager','mfleming')
+INSERT INTO users VALUES (3,'mcarrion@grupodaca.com.ar','Maximiliano','Carrion','$2a$10$HNl1VPjOFLH/le5geD/5.OtOya2beXafGkV/jF8YSlILQh7NdfR9S','manager','mcarrion')
+INSERT INTO users VALUES (4,'rcampos@grupodaca.com.ar','Richard','Campos','$2a$10$HNl1VPjOFLH/le5geD/5.OtOya2beXafGkV/jF8YSlILQh7NdfR9S','manager','rcampos')
+
+INSERT INTO projects VALUES (1,'Saenz 630',1200,'2022-06-10','Lomas de Zamora',2500,'Rock Garden 1','Proyecto en curso',95,100,4500000,'2022-01-08','2022-3-5',1)
+INSERT INTO projects VALUES (2,'Portela 15',800,'2022-06-20','Lomas de Zamora',900,'Rock Garden 2','Proyecto en curso',60,40,2300000,'2022-01-20','2022-3-19',1)
+
+INSERT INTO invoices VALUES (1,'2022-01-20',2850000,'158412',472500,'00123456','Contado','Paga','A',1)
+INSERT INTO invoices VALUES (2,'2022-02-20',125000,'158413',26250,'00123456','Contado','Paga','A',1)
+INSERT INTO invoices VALUES (3,'2022-03-20',122000,'158414',25620,'00123456','Contado','Paga','A',1)
+INSERT INTO invoices VALUES (4,'2022-04-20',131000,'158415',27510,'00123456','Contado','Paga','A',1)
+INSERT INTO invoices VALUES (5,'2022-05-20',110000,'158416',23100,'00123456','Contado','Impaga','A',1)
+INSERT INTO invoices VALUES (6,'2022-06-20',131000,'158415',27510,'00123456','Contado','Paga','A',1)
+INSERT INTO invoices VALUES (7,'2022-07-18',187000,'158416',23100,'00123456','Contado','Impaga','A',1)
+
+INSERT INTO suppliers VALUES (1,'Hipolito Irigoyen 12100','Bulones Coiro SA','Federico Ramirez','30708512325','info@bulonescoiro.com.ar','Lomas de Zamora','42448545')
+INSERT INTO suppliers VALUES (null,'Emilio castro','Papelera RAIZ','Jose Mendoza','23451512325','info@papelera.com.ar','Mataderos','23448545')
+INSERT INTO suppliers VALUES (null,'Caseros','Covisa','Pedro Peña','74681512325','info@covisa.com.ar','Castelar','332248545')
+
+INSERT INTO purchase_order VALUES (1,'2022-02-01','2022-01-12','2022-02-10','Transferencia Bancaria','Pago a 30 días','Paga','OC',1,1)
+
+INSERT INTO incoming_bills VALUES (1,'2022-01-20',2550000,'123546',535500,'00123456','Contado','Paga','A',1)
+INSERT INTO incoming_bills VALUES (2,'2022-02-20',65000,'123547',13650,'00123456','Contado','Paga','A',1)
+INSERT INTO incoming_bills VALUES (3,'2022-03-20',55000,'123548',11500,'00123456','Contado','Paga','A',1)
+INSERT INTO incoming_bills VALUES (4,'2022-04-20',81000,'123549',17010,'00123456','Contado','Paga','A',1)
+INSERT INTO incoming_bills VALUES (5,'2022-05-20',60500,'123550',12705,'00123456','Contado','Impaga','A',1)
+INSERT INTO incoming_bills VALUES (6,'2022-06-20',81000,'123549',17010,'00123456','Contado','Paga','A',1)
+INSERT INTO incoming_bills VALUES (7,'2022-07-18',98752,'123550',12705,'00123456','Contado','Impaga','A',1)

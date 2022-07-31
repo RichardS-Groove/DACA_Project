@@ -1,0 +1,103 @@
+.common-form {
+  color: #000000;
+}
+
+.common-form.bg-image:after {
+  background-color: rgba(0,0,0,.6);
+}
+
+.white-box {
+  background: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.6);
+}
+
+.white-box.left-side {
+  background-image: url(../img/x4.jpg);
+}
+
+
+
+.white-box form h5.logo {
+  color: #333;
+}
+
+.white-box form h4 {
+  color: #222222;
+}
+
+.white-box .btn {
+  background-color: #4d4dff;
+  transition: .3s;
+}
+
+.white-box .btn:hover {
+  background-color: rgba(77, 77, 255, 0.8);
+}
+
+.white-box form .form-control {
+  border-left: 2px solid #999999;
+  border-bottom: 2px solid #cccccc;
+  border-radius: unset;
+  transition: .3s;
+}
+
+.white-box form .form-control:focus {
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-left: unset;
+}
+
+.white-box .social li a i, .f-btns li a:hover, .f-btns li button:hover, .white-box a i:hover, .white-box .btn, .text-box, footer p {
+  color: #ffffff;
+}
+
+.white-box .or p, .white-box form .form-control:focus, .white-box form .form-control::placeholder {
+  color: #333333;
+}
+
+.f-btns li a, .f-btns li button {
+  color: #000000;
+  background-color: transparent;
+  border-radius: 30px;
+  border-bottom: 2px solid #000;
+  transition: .3s;
+}
+
+.white-box .social li a i, .f-btns li a:hover, .f-btns li button:hover, .white-box a i:hover {
+  background-color: #004d99;
+}
+
+.white-box a i.fa-user-alt:hover {
+  background-color: #0066cc;
+}
+
+.white-box .social li a i {
+  transition: .3s;
+}
+
+.white-box .social li a:hover i {
+  transform: scale(0.90);
+}
+
+.f-btns li a, .f-btns li button, .white-box a i {
+  box-shadow: -3px 3px 5px rgba(0,0,0,.6);
+}
+
+.white-box .social li:nth-child(1) a i {
+  background-color: #0059b3;
+}
+
+.white-box .social li:nth-child(2) a i {
+  background-color: #58a8de;
+}
+
+.white-box .social li:nth-child(3) a i {
+  background-color: #b30000;
+}
+
+.white-box .social li:nth-child(4) a i {
+  background-color: #007bb6;
+}
+
+.white-box .or p:before, .white-box .or p:after {
+  background-color: #999999;
+}

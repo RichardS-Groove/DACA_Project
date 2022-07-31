@@ -1,0 +1,109 @@
+@media (max-width:1200px) {
+  .white-box {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width:576px) {
+  .white-box {
+    border-radius: 0 0 10px 10px;
+    padding: 10px 30px;
+    position: relative;
+    text-align: center;
+    min-height: 110px;
+  }
+  .white-box.left-side {
+    border-radius: 10px 10px 0 0;
+    padding: 20px 30px;
+  }
+  form {
+    padding: 20px;
+  }
+  .white-box img {
+    width: 70px;
+  }
+  .white-box .social li a i {
+    border-radius: 10px;
+    height: 20px;
+    font-size: 12px;
+    width: 80%;
+    margin: 5px auto;
+  }
+  .white-box .info li {
+    margin: 2px 5px 0 5px;
+    font-size: 13px;
+  }
+  .forget-form .white-box form h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  .forget-form .white-box form p {
+    font-size: 13px;
+    line-height: 1;
+  }
+  .white-box .form-group {
+    margin: 10px 0;
+  }
+  .white-box form .form-control {
+    font-size: 14px;
+    height: 30px;
+  }
+  .white-box form .custom-control-label {
+    margin: 0px 0 0px 0;
+  }
+  .white-box form h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  .white-box .new-acc {
+    margin: 0;
+  }
+  .f-btns li a, .f-btns li button {
+    padding: 3px 30px;
+    font-size: 14px;
+  }
+  .white-box form h2 {
+    line-height: 1.2;
+    font-size: 30px;
+  }
+  .white-box a i {
+    top: -25px;
+    font-size: 20px;
+    padding: 15px;
+  }
+  .white-box a i.fa-arrow-left {
+    top: -20px;
+    left: 20px;
+    font-size: 17px;
+    padding: 15px;
+  }
+  footer p {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  .reg-form form .form-control {
+    margin-bottom: 5px;
+  }
+  .reg-form .white-box form h4 {
+    font-size: 20px;
+  }
+  .reg-form .white-box {
+    padding: 5px 20px;
+  }
+  .reg-form .white-box p.new-acc {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:319px) , (max-height:700px) {
+  .common-form {
+    height: unset;
+  }
+  .meta{
+    padding: 100px 0 60px 0;
+  }
+
+  footer p{
+    position: relative;
+  }
+}

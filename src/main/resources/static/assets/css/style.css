@@ -1,0 +1,60 @@
+:root{
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+    --grey: hsl(0, 0%, 90%);
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark{
+   background-color: var(--dark) !important; 
+}
+.bg-dark-x{
+    background-color: var(--dark-x);
+}
+.bg-grey{
+    background-color: var(--grey);
+}
+.form-control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.font-bold {
+    font-weight: bold;
+  }
+
+  .img-1{
+     background-image: url('../img/Imagen1.jpg'); 
+     background-size: cover;
+     background-position: center;
+  }
+  .img-2{
+    background-image: url('../img/Imagen2.jpg'); 
+    background-size: cover;
+    background-position: center;
+ }
+ .img-3{
+    background-image: url('../img/Imagen3.jpeg'); 
+    background-size: cover;
+    background-position: center;
+ }
+ .form-control{
+     background-color: #d0d4d6;
+     border: 2px solid ;
+     border-radius: .2rem;
+     padding: 1rem 1rem;
+ }
+ .p-6{
+     padding: 6px;
+ }
+ .save_button { 
+     min-width: 80px; 
+     max-width: 80px; 
+    }
+
+
